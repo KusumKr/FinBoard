@@ -235,19 +235,6 @@ FinBoard/
 3. Add environment variables
 4. Deploy
 
-### AWS
+<img width="1340" height="588" alt="image" src="https://github.com/user-attachments/assets/1e1f0d2c-bdd4-46f1-9137-a0d6955c39f3" />
 
-Follow Next.js deployment guide for AWS Amplify or EC2.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is created for educational purposes.
-
-## Support
-
-For issues or questions, please open an issue on the repository.
 
