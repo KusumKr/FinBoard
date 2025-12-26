@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { X } from "lucide-react";
-import { useDashboardStore, WidgetType, CardType } from "@/store/dashboardStore";
+import { useDashboardStore, WidgetType, CardType, ChartType } from "@/store/dashboardStore";
 
 const generateId = () => {
   return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
@@ -31,8 +31,8 @@ export default function AddWidgetModal({ onClose }: AddWidgetModalProps) {
       apiKey: apiKey || undefined,
       refreshInterval: 60000,
       cardType: widgetType === "card" ? cardType : undefined,
-      chartType: widgetType === "chart" ? "line" : undefined,
-      chartInterval: widgetType === "chart" ? "daily" : undefined,
+      chartType: widgetType === "chart" ? ("line" as ChartType) : undefined,
+      chartInterval: widgetType === "chart" ? ("daily" as "daily" | "weekly" | "monthly") : undefined,
     };
 
     addWidget(widget);
