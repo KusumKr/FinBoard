@@ -1,5 +1,7 @@
 # FinBoard - Customizable Finance Dashboard
 
+> Latest deployment fix: All dependency conflicts resolved
+
 A powerful, customizable finance dashboard builder that allows users to create their own real-time finance monitoring dashboard by connecting to various financial APIs and displaying data through customizable widgets.
 
 ## Features
